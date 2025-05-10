@@ -103,7 +103,3 @@ Feel free to fork this repo, create issues, or submit pull requests. Feedback an
 Last updated: 2025-05-10
 
 Thank you for using this project. If you found it helpful, feel free to ⭐ star the repo!
-
-
-¿Deseas que también genere una versión en español del README.md?
-
