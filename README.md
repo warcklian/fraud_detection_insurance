@@ -1,7 +1,11 @@
+
+markdown
+Copiar
+Editar
 # 🛡️ Fraud Detection Insurance Dashboard
 
 **Author**: Jorge Octavio Gómez González  
-**Email**: warcklian696@gmail.com  
+**Email**: [warcklian696@gmail.com](mailto:warcklian696@gmail.com)  
 **GitHub**: [warcklian](https://github.com/warcklian)  
 **LinkedIn**: [Jorge Octavio Gómez González](https://www.linkedin.com/in/jorge-octavio-gómez-gonzález-8a0510b4)
 
@@ -13,93 +17,111 @@ A professional fraud detection and visualization dashboard designed to analyze i
 
 ## 📁 Project Structure
 
-
+```text
 fraud_detection_insurance/
 │
-├── data/ # Raw datasets
-├── reports/ # CSV reports with fraud predictions
-├── models/ # Trained models (Pickle or Joblib)
-├── visualizations/ # Exported plots and images
-├── notebooks/ # Prototyping and exploratory notebooks
-├── dashboard_fraude.py # Main Streamlit dashboard script
-├── predict.py # Script to load and generate predictions
-├── train_model.py # Model training and export script
-├── requirements.txt # Python dependency list
-├── init_git_project.bat # Git automation script (optional)
-└── README.md # This file
+├── data/                  # Raw datasets
+├── reports/               # CSV reports with fraud predictions
+├── models/                # Trained models (Pickle or Joblib)
+├── visualizations/        # Exported plots and images
+├── notebooks/             # Prototyping and exploratory notebooks
+├── dashboard_fraude.py    # Main Streamlit dashboard script
+├── predict.py             # Script to load and generate predictions
+├── train_model.py         # Model training and export script
+├── requirements.txt       # Python dependency list
+├── init_git_project.bat   # Git automation script (optional)
+└── README.md              # This file
+⚙️ Requirements
+Tested environment:
 
-
----
-
-## ⚙️ Requirements
-
-Tested with the following Python version and package versions:
-
-```text
+text
+Copiar
+Editar
 Python 3.10
-
 Required libraries:
-- streamlit==1.16.0
-- pandas==2.2.3
-- seaborn==0.13.2
-- matplotlib==3.8.4
-- scikit-learn==1.3.2
-- joblib==1.4.2
 
-Install all dependencies using:
-
+text
+Copiar
+Editar
+streamlit==1.16.0
+pandas==2.2.3
+seaborn==0.13.2
+matplotlib==3.8.4
+scikit-learn==1.3.2
+joblib==1.4.2
+💾 Install Dependencies
+bash
+Copiar
+Editar
 pip install -r requirements.txt
+💡 You can create a virtual environment for better isolation:
 
-
-Note: You can create a virtual environment first for better isolation:
-
+bash
+Copiar
+Editar
 python -m venv venv
-venv\Scripts\activate   # on Windows
-source venv/bin/activate   # on Linux/Mac
-
+venv\Scripts\activate     # On Windows
+source venv/bin/activate  # On Linux/Mac
 🚀 Usage
 1. Train the model
-
+bash
+Copiar
+Editar
 python train_model.py
-
-This will generate the model and save it in the models/ directory.
+➡️ This generates a trained model in the models/ directory.
 
 2. Predict fraud probabilities
-
+bash
+Copiar
+Editar
 python predict.py
-
-This will create reports/fraud_predictions_report.csv.
+➡️ This creates the reports/fraud_predictions_report.csv with prediction results.
 
 3. Launch the dashboard
-
+bash
+Copiar
+Editar
 streamlit run dashboard_fraude.py
+🔗 Opens the interactive dashboard at: http://localhost:8501
 
-This opens an interactive dashboard at http://localhost:8501, where you can:
+✅ Features in the dashboard:
+Filter by fraud or non-fraud
 
-Filter by fraud predictions
+Adjust probability threshold
 
-Adjust threshold sliders
+Real-time updates with @st.cache
 
-View visual reports with charts
+Histogram of predicted probabilities
+
+Scatter plot of income vs fraud risk
 
 🧠 Core Features
-Interactive filters for binary fraud classification
+📊 Interactive filters for binary fraud classification
 
-Probability threshold adjustment
+🎚️ Threshold slider to adjust fraud prediction sensitivity
 
-Histogram & scatter plots using Seaborn
+🖼️ Real-time histogram and scatter plots (Seaborn + Matplotlib)
 
-Real-time data refresh with st.cache
+🔄 Efficient data caching for responsiveness
 
-Visual and metric summaries of fraud detection
+📈 Metric summaries to assist decision making
 
 📝 License
 This project is licensed under the MIT License.
 
 🤝 Contributing
-Feel free to fork this repo, create issues, or submit pull requests. Feedback and suggestions are always welcome!
+Feel free to:
+
+Fork this repository
+
+Submit pull requests
+
+Create issues
+
+Share your ideas or improvements
 
 📌 Version
 Last updated: 2025-05-10
 
-Thank you for using this project. If you found it helpful, feel free to ⭐ star the repo!
+Thanks for using this project!
+If you found it helpful, consider ⭐ starring the repository.
