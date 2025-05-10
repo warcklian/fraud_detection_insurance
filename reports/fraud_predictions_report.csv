@@ -1,0 +1,101 @@
+age,income,claim_amount,num_claims,has_prior_fraud,fraud_probability,is_predicted_fraud,justification
+26,26239,15374,4,1,0.17,0,historial de fraude previo; número alto de reclamos
+42,99474,15196,2,1,0.13,0,historial de fraude previo
+21,115308,47870,3,1,0.1,0,historial de fraude previo; monto elevado del reclamo
+57,34650,42273,2,1,0.07,0,historial de fraude previo; monto elevado del reclamo
+41,34438,33855,3,1,0.2,0,historial de fraude previo; monto elevado del reclamo
+33,83894,24219,4,0,0.07,0,número alto de reclamos
+66,27424,39832,2,1,0.12,0,historial de fraude previo; monto elevado del reclamo
+28,62679,34274,1,1,0.08,0,historial de fraude previo; monto elevado del reclamo
+48,61186,16029,5,0,0.14,0,número alto de reclamos
+52,114654,10873,2,0,0.07,0,sin señales evidentes
+20,24914,13993,1,0,0.26,0,ingresos bajos
+52,103396,13125,1,0,0.17,0,sin señales evidentes
+32,83907,5095,1,0,0.06,0,sin señales evidentes
+52,49079,9336,0,1,0.07,0,historial de fraude previo
+67,52265,41755,0,0,0.21,0,monto elevado del reclamo
+66,56336,30878,1,1,0.12,0,historial de fraude previo; monto elevado del reclamo
+42,70965,7327,2,0,0.15,0,sin señales evidentes
+33,44985,1083,1,1,0.13,0,historial de fraude previo
+54,72662,34270,4,1,0.26,0,historial de fraude previo; monto elevado del reclamo; número alto de reclamos
+61,54469,37196,5,0,0.04,0,monto elevado del reclamo; número alto de reclamos
+34,117402,35346,2,0,0.16,0,monto elevado del reclamo
+27,91284,40672,3,1,0.05,0,historial de fraude previo; monto elevado del reclamo
+47,82650,36574,2,0,0.06,0,monto elevado del reclamo
+40,38142,23309,1,0,0.05,0,sin señales evidentes
+20,25939,2648,4,1,0.1,0,historial de fraude previo; número alto de reclamos
+45,112446,12984,0,0,0.09,0,sin señales evidentes
+62,106905,28637,2,0,0.0,0,sin señales evidentes
+22,22626,25419,4,0,0.11,0,número alto de reclamos; ingresos bajos
+49,106259,20774,3,1,0.15,0,historial de fraude previo
+19,24535,13131,2,0,0.17,0,ingresos bajos
+31,90445,30137,1,0,0.08,0,monto elevado del reclamo
+37,54905,48632,3,1,0.24,0,historial de fraude previo; monto elevado del reclamo
+54,20429,18478,2,1,0.15,0,historial de fraude previo; ingresos bajos
+22,86576,41245,0,0,0.08,0,monto elevado del reclamo
+45,115756,31432,3,0,0.05,0,monto elevado del reclamo
+21,93558,13207,1,0,0.05,0,sin señales evidentes
+25,31730,32664,2,0,0.05,0,monto elevado del reclamo
+67,34957,37529,0,1,0.07,0,historial de fraude previo; monto elevado del reclamo
+65,44556,19229,4,1,0.06,0,historial de fraude previo; número alto de reclamos
+19,64255,24407,2,1,0.08,0,historial de fraude previo
+32,61748,13962,0,1,0.08,0,historial de fraude previo
+25,59050,16491,0,1,0.02,0,historial de fraude previo
+34,98297,22643,0,0,0.07,0,sin señales evidentes
+20,58302,39685,2,1,0.06,0,historial de fraude previo; monto elevado del reclamo
+59,87468,23365,1,0,0.18,0,sin señales evidentes
+48,39445,5547,1,1,0.41,0,historial de fraude previo
+37,86909,28546,1,1,0.08,0,historial de fraude previo
+52,43415,45913,3,1,0.1,0,historial de fraude previo; monto elevado del reclamo
+45,99452,32796,5,1,0.08,0,historial de fraude previo; monto elevado del reclamo; número alto de reclamos
+64,20556,28300,3,0,0.06,0,ingresos bajos
+67,105237,8881,5,1,0.16,0,historial de fraude previo; número alto de reclamos
+48,78425,30269,1,1,0.01,0,historial de fraude previo; monto elevado del reclamo
+66,26527,25054,0,1,0.23,0,historial de fraude previo
+65,45344,32324,0,1,0.13,0,historial de fraude previo; monto elevado del reclamo
+57,29960,40539,2,1,0.1,0,historial de fraude previo; monto elevado del reclamo
+63,55804,45414,2,1,0.04,0,historial de fraude previo; monto elevado del reclamo
+56,50530,2747,6,1,0.14,0,historial de fraude previo; número alto de reclamos
+62,36016,21599,1,1,0.08,0,historial de fraude previo
+36,62373,26405,3,0,0.14,0,sin señales evidentes
+18,107475,15429,2,1,0.05,0,historial de fraude previo
+52,69498,39386,1,1,0.04,0,historial de fraude previo; monto elevado del reclamo
+28,70014,42764,0,1,0.06,0,historial de fraude previo; monto elevado del reclamo
+35,99822,28178,2,1,0.14,0,historial de fraude previo
+26,90733,12021,2,0,0.02,0,sin señales evidentes
+31,89844,25880,2,0,0.03,0,sin señales evidentes
+60,111150,36360,1,1,0.0,0,historial de fraude previo; monto elevado del reclamo
+48,50579,32014,2,0,0.16,0,monto elevado del reclamo
+35,105281,6416,1,1,0.15,0,historial de fraude previo
+22,85684,11737,1,1,0.08,0,historial de fraude previo
+68,116424,35190,2,1,0.05,0,historial de fraude previo; monto elevado del reclamo
+58,56376,17422,4,1,0.02,0,historial de fraude previo; número alto de reclamos
+45,93181,13916,1,0,0.05,0,sin señales evidentes
+45,38874,46270,4,0,0.04,0,monto elevado del reclamo; número alto de reclamos
+37,65852,14477,4,0,0.04,0,número alto de reclamos
+32,76018,3176,4,0,0.22,0,número alto de reclamos
+18,64679,30544,2,0,0.21,0,monto elevado del reclamo
+31,110626,24227,1,0,0.01,0,sin señales evidentes
+30,30815,29520,3,0,0.08,0,sin señales evidentes
+60,76450,24468,2,0,0.01,0,sin señales evidentes
+21,66295,13179,2,0,0.15,0,sin señales evidentes
+24,48817,49844,1,1,0.11,0,historial de fraude previo; monto elevado del reclamo
+21,31994,28970,2,1,0.09,0,historial de fraude previo
+38,45053,44149,2,0,0.02,0,monto elevado del reclamo
+33,106752,15328,2,0,0.07,0,sin señales evidentes
+28,46698,19497,1,1,0.16,0,historial de fraude previo
+41,48085,34092,1,0,0.1,0,monto elevado del reclamo
+65,54590,40094,0,0,0.18,0,monto elevado del reclamo
+21,88675,32360,4,0,0.11,0,monto elevado del reclamo; número alto de reclamos
+59,107122,15679,1,1,0.02,0,historial de fraude previo
+66,90630,35387,0,1,0.17,0,historial de fraude previo; monto elevado del reclamo
+61,62890,20210,3,0,0.04,0,sin señales evidentes
+54,69805,16081,1,1,0.0,0,historial de fraude previo
+23,96369,5929,1,0,0.05,0,sin señales evidentes
+25,80277,22634,1,0,0.07,0,sin señales evidentes
+56,104761,7359,3,0,0.27,0,sin señales evidentes
+40,109282,14046,1,0,0.13,0,sin señales evidentes
+48,37039,43276,0,0,0.18,0,monto elevado del reclamo
+52,91802,10507,3,0,0.13,0,sin señales evidentes
+60,59525,36866,0,1,0.02,0,historial de fraude previo; monto elevado del reclamo
+38,117260,9851,0,1,0.04,0,historial de fraude previo
