@@ -34,15 +34,11 @@ fraud_detection_insurance/
 ⚙️ Requirements
 Tested environment:
 
-text
-Copiar
-Editar
+
 Python 3.10
 Required libraries:
 
-text
-Copiar
-Editar
+
 streamlit==1.16.0
 pandas==2.2.3
 seaborn==0.13.2
@@ -50,37 +46,27 @@ matplotlib==3.8.4
 scikit-learn==1.3.2
 joblib==1.4.2
 💾 Install Dependencies
-bash
-Copiar
-Editar
+
 pip install -r requirements.txt
 💡 You can create a virtual environment for better isolation:
 
-bash
-Copiar
-Editar
+
 python -m venv venv
 venv\Scripts\activate     # On Windows
 source venv/bin/activate  # On Linux/Mac
 🚀 Usage
 1. Train the model
-bash
-Copiar
-Editar
+
 python train_model.py
 ➡️ This generates a trained model in the models/ directory.
 
 2. Predict fraud probabilities
-bash
-Copiar
-Editar
+
 python predict.py
 ➡️ This creates the reports/fraud_predictions_report.csv with prediction results.
 
 3. Launch the dashboard
-bash
-Copiar
-Editar
+
 streamlit run dashboard_fraude.py
 🔗 Opens the interactive dashboard at: http://localhost:8501
 
