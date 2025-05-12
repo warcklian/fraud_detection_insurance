@@ -25,7 +25,7 @@ import os
 DATA_PATH = "data/fraud_data.csv"
 MODEL_PATH = "models/random_forest_model.pkl"
 RECREATE_DATA = True  # Cambiar a True si se desea recrear el CSV
-DATA_SIZE = 10000       # Número de registros a generar si se recrea
+DATA_SIZE = 500000       # Número de registros a generar si se recrea
 # -----------------------------------------------------------
 
 def create_synthetic_data(path: str, num_records: int):
